@@ -1,0 +1,22 @@
+.blank {
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #e0e0e0;
+  border: 2px dashed #999;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  &.filled {
+    background-color: #a5d6a7;
+    color: #2e7d32;
+    font-weight: bold;
+  }
+
+  &.over {
+    background-color: #ffecb3;
+    transform: scale(1.1);
+  }
+}

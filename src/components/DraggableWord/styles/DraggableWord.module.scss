@@ -1,0 +1,20 @@
+.draggableWord {
+  padding: 10px 15px;
+  background-color: #f0f4c3;
+  border-radius: 8px;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &.highlight {
+    background-color: #e57373;
+    color: #fff;
+  }
+}
